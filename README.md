@@ -26,7 +26,7 @@ Just open the jupyter notebook in Google Colab through the provided button and r
 
 ## Usage
 The implementation provides an interactive chatbot user interface for ease of use.
-[Screenshot of interface]
+![Chatbot Interface](https://raw.githubusercontent.com/trashpanda-ai/RAG-chatbot/main/UI.png)
 
 Example queries:
 - "Show me all empirical studies on human-AI collaboration"

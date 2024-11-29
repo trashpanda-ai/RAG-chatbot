@@ -112,7 +112,7 @@ Answer:
   
 ### Outlook: incoming features and improvements
 - Add tabular database for all created summaries (to reduce API calls and make questions on counts more reliable)
-- Improve existing guidance prompts for RAG 
+- Improve existing guidance prompts for RAG (there are still issues which need to be resolved)
 - Give user the option to easily create and add guidance prompts
 - Enhance user interface while keeping the copy-ability of markdown formatting
 - For better reproducability the temperature has to be *0*, but for real-world use, this should be adjusted

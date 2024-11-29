@@ -1,5 +1,6 @@
 # RAG Chatbot for Literature Review
-A powerful Retrieval Augmented Generation (RAG) system that combines OpenAI's LLM capabilities with LangChain for efficient academic literature processing and analysis. This project was developed as part of an application process with approximately 5 hours of development time and aims to be a compact but comprehensive and useful tool.
+A powerful Retrieval Augmented Generation (RAG) system designed for academic literature analysis. This tool combines OpenAI's language models with LangChain's document processing capabilities to assist in literature review tasks. The system processes academic documents and enables interactive conversations about their content, helping researchers extract and analyze information efficiently. Built as a proof of concept in approximately 5 hours (as part of an application process), this implementation demonstrates a straightforward approach to augmenting literature review workflows with AI assistance. The architecture prioritizes simplicity and ease of use. It maintains robust functionality for document processing and information retrieval to promote Human-AI collaboration.
+
 
 ## Overview
 This chatbot processes and analyzes academic literature focused on Human-AI interaction research papers, but can be applied to all text-based documents. The system combines semantic search capabilities with text generation to enable complex answers based on individual knowledge bases.
@@ -22,7 +23,8 @@ Interactive Query System:
 - Academic citation formatting
 
 ## Installation
-Just open the jupyter notebook in Google Colab through the provided button and run all cells.
+Just open the Jupyter Notebook in Google Colab through the provided button and run all cells:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trashpanda-ai/RAG-chatbot/blob/main/RAG_chatbot.ipynb)
 
 ## Usage
 The implementation provides an interactive chatbot user interface for ease of use.

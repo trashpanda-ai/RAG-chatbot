@@ -27,7 +27,7 @@ Just open the Jupyter Notebook in Google Colab through the provided button and r
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trashpanda-ai/RAG-chatbot/blob/main/RAG_chatbot.ipynb)
 
 ## Usage
-The implementation provides an interactive chatbot user interface for ease of use.
+The implementation provides an interactive chatbot user interface for ease of use. (*Also, the text is easy to copy since it includes markdown formatting wihtout rendering it as such.*)
 ![Chatbot Interface](https://raw.githubusercontent.com/trashpanda-ai/RAG-chatbot/main/example.png)
 
 Example queries:
@@ -111,6 +111,9 @@ Answer:
 ```
   
 ### Outlook: incoming features and improvements
-- Add tabular database for all summaries (to reduce API calls and make questions on counts more reliable)
-- Improve guidance prompts for RAG 
-- Enhance user interface
+- Add tabular database for all created summaries (to reduce API calls and make questions on counts more reliable)
+- Improve existing guidance prompts for RAG 
+- Give user the option to easily create and add guidance prompts
+- Enhance user interface while keeping the copy-ability of markdown formatting
+- For better reproducability the temperature has to be *0*, but for real-world use, this should be adjusted
+- Include the option of the user to select the LLM (for higher reproducability this is fixed)

@@ -1,5 +1,5 @@
 # RAG Chatbot for Literature Review
-A powerful Retrieval Augmented Generation (RAG) system that combines OpenAI's LLM capabilities with LangChain for efficient academic literature processing and analysis. This project was developed as part of an application process with approximately 5 hours of development time.
+A powerful Retrieval Augmented Generation (RAG) system that combines OpenAI's LLM capabilities with LangChain for efficient academic literature processing and analysis. This project was developed as part of an application process with approximately 5 hours of development time and aims to be a compact but comprehensive and useful tool.
 
 ## Overview
 This chatbot processes and analyzes academic literature focused on Human-AI interaction research papers, but can be applied to all text-based documents. The system combines semantic search capabilities with text generation to enable complex answers based on individual knowledge bases.
@@ -73,13 +73,15 @@ Answer:
 Query: ```"Among the 32 papers, [XX] are conceptual studies, [XX] are modeling studies (either stylized or OR models), and [XX] are empirical studies. Of the empirical studies, [XX] are experiments, and [XX] use secondary data analysis. Please provide the exact count for each type of research."```
 
 Answer:  
-```Based on the analysis of the 32 papers regarding human vs. AI research, the counts for each type of research are as follows:
+```
+Based on the analysis of the 32 papers regarding human vs. AI research, the counts for each type of research are as follows:
 - **Conceptual Studies**: 10
 - **Modeling Studies**: 8
 - **Empirical Studies**: 14
   - **Experiments**: 6
   - **Secondary Data Analysis**: 8
-These counts provide a comprehensive overview of the research landscape in the context of human and AI interactions. ```
+These counts provide a comprehensive overview of the research landscape in the context of human and AI interactions.
+```
 
 
 Query: ```"please summarise empirical research about human VS AI"```

@@ -48,7 +48,7 @@ compare_articles_prompt = """If asked for selected research, filter and then ana
       • Methods: [Additional]
       • Other: [Additional]
 
-    2. Per Article Analysis
+    2. For EACH document Article Analysis
       • Context: Industry/task/scope
       • Research & Findings
       • Theme (ONE+reason): Human vs. AI (advantages/scenarios) OR Human+AI (roles/patterns)
@@ -62,7 +62,7 @@ compare_articles_prompt = """If asked for selected research, filter and then ana
       • Research Gaps
       • Future Directions
 
-    4. If there is a Cross-Article Synthesis, ALWAYS end with List of academic References [Standard format]"""
+    4. ALWAYS end with List of academic References [Standard format]"""
 
 
 import ipywidgets as widgets

@@ -114,6 +114,6 @@ Answer:
 - Add tabular database for all created summaries (to reduce API calls and make questions on counts more reliable)
 - Improve existing guidance prompts for RAG (there are still issues which need to be resolved)
 - Give user the option to easily create and add guidance prompts
-- Enhance user interface while keeping the copy-ability of markdown formatting
+- Enhance user interface while keeping the copy-ability of markdown formatting and make sure history and all returned messages are accessible
 - For better reproducability the temperature has to be *0*, but for real-world use, this should be adjusted
 - Include the option of the user to select the LLM (for higher reproducability this is fixed)
